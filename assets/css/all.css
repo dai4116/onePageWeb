@@ -22,19 +22,6 @@ h5 {
     background-color: #07070a
 }
 
-.dropdown-menu {
-    background-color: #000000;
-}
-
-.dropdown-item {
-    color: #ffffff;
-}
-
-.dropdown-item:hover {
-    color: #fcfcfc;
-    text-decoration: none;
-    background-color: #292929;
-}
 
 .desc {
     font-size: 18px
@@ -197,15 +184,7 @@ h5 {
 }
 
 @media screen and (max-width: 1024px) {
-    .footer li {
-        display: block;
-        margin-right: 0;
-        margin-bottom: .5rem
-    }
 
-    .footer ul {
-        padding-left: 0
-    }
 
     .tool li {
         display: block;
@@ -219,13 +198,19 @@ h5 {
 }
 
 @media screen and (max-width: 576px) {
+    .footer li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: .5rem
+    }
+
+    .footer ul {
+        padding-left: 0
+    }
+
     .service-text,
     .contact p {
         text-align: left
-    }
-
-    .bet-img img {
-        margin-bottom: 20px
     }
 
     .pt-5 {
@@ -235,7 +220,7 @@ h5 {
     .container {
         width: 90%
     }
-    
+
     .dropdown-item {
         padding: 0;
     }
