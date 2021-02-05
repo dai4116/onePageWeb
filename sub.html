@@ -28,6 +28,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/aos.js"></script>
   <script src="assets/js/all.js"></script>
+  <script type="text/javascript" src="assets/js/countUp.min.js"></script>
   <title></title>
 </head>
 
@@ -55,15 +56,6 @@
               <li class="nav-item" id="contact">
                 <a class="nav-link" href="index.html#page-4">聯絡我們</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  繁體中文
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="sub.html">简体中文</a>
-                </div>
-              </li>
             </ul>
           </div>
         </nav>
@@ -87,31 +79,32 @@
               <p>唯有透過龐大的投注流動資金，數以千計的投注者同時的資金湧入，並由專業交易團隊管理進行操盤工作，博奕公司才能夠迅速的提供投注賠率，應付數千場現場賽事、維持具競爭力的賠率，並允許投注者以任一價格進行遠高於一般賭注的下投。集團的授權使用者能因此類優勢而受益。</p>
             </div>
           </div>
+          <div class="jumbo" id="myTargetElement"></div>
           <div class="row text-center">
-            <div class="bet-focus col-sm-3" data-aos="flip-left" data-aos-delay="100">
+            <div class="bet-focus col-sm-3">
               <div class="bet-number">
-                <span class="number">5000</span>
+                <span class="number" id="num1"></span>
                 <span class="type">場</span>
               </div>
               <p>足球聯盟現場賽事</p>
             </div>
-            <div class="bet-focus col-sm-3" data-aos="flip-left" data-aos-delay="200">
+            <div class="bet-focus col-sm-3">
               <div class="bet-number">
-                <span class="number">18000</span>
+                <span class="number" id="num2"></span>
                 <span class="type">場</span>
               </div>
               <p>足球聯盟現場投注類型</p>
             </div>
-            <div class="bet-focus col-sm-3" data-aos="flip-left" data-aos-delay="300">
+            <div class="bet-focus col-sm-3">
               <div class="bet-number">
-                <span class="number">1800</span>
+                <span class="number" id="num3"></span>
                 <span class="type">場</span>
               </div>
               <p>其他現場賽事</p>
             </div>
-            <div class="bet-focus col-sm-3" data-aos="flip-left" data-aos-delay="400">
+            <div class="bet-focus col-sm-3">
               <div class="bet-number">
-                <span class="number">3000</span>
+                <span class="number" id="num4"></span>
                 <span class="type">場</span>
               </div>
               <p>其他現場投注類型</p>
@@ -294,5 +287,4 @@
       </footer>
   </div>
 </body>
-
 </html>
