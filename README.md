@@ -25,6 +25,7 @@ https://dai4116.github.io/onePageWeb/tw/index_tw.html
 ∙ jQuery
 ∙ AOS
 ∙ sketch
+∙ countUp
 ```
 
 ### 聲明
